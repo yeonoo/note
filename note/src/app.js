@@ -15,3 +15,8 @@ function autoLoad(event){
 console.log(1);
 $('#contents').on('keyup', autoSave);
 $(window).on("load", autoLoad);
+
+$('.summernote').summernote({
+
+    height:300
+});
